@@ -6,6 +6,7 @@ R, C = map(int, input().split())
 N = int(input())
 arr = [list(map(int, input().split())) for _ in range(N)]
 arr.sort(key=lambda x : x[1])
+print(arr)
 # (가로 시작, 종료), (세로 시작, 종료)
 paper = [[(0, R)], [(0, C)]]
 # 자른다.
