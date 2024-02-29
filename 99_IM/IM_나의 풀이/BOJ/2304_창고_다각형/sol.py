@@ -1,16 +1,15 @@
 import sys
 sys.stdin = open('input.txt')
 
-
+lst = []
 N = int(input())  # 기둥의 개수
+for tc in range(N):
+    idx, height = map(int, input().split())
+    lst.append([idx, height])
+    lst.sort()
 
-lst = [0] * 1001
 
-mx = 0
-mx_idx = 0
-for _ in range(N):
-    L, H = map(int, input().split())
-    lst[L] = H
-    pass
+
+
 
 
