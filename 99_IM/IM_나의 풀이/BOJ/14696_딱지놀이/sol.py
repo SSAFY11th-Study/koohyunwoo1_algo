@@ -12,8 +12,10 @@ N = int(input())
 for i in range(N) :
     A = list(map(int,input().split()))[1:]
     B = list(map(int,input().split()))[1:]
+
     lstA = [A.count(4),A.count(3),A.count(2),A.count(1)]
     lstB = [B.count(4),B.count(3),B.count(2),B.count(1)]
+
     if lstA[0] > lstB[0] :
         print('A')
     elif lstA[0] <lstB[0] :

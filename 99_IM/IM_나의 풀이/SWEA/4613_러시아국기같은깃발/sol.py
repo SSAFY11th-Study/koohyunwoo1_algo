@@ -3,7 +3,11 @@ import sys
 sys.stdin = open('input.txt')
 
 T = int(input())
+'''
+세야죠 왜나면 처음에 화이트인게 나와야하니깐 화이트인것을 셌습니다
 
+
+'''
 for tc in range(1, T + 1):
     N, M = map(int, input().split())
     arr = [list(input()) for _ in range(N)]
